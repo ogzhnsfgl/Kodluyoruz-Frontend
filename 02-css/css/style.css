@@ -1,0 +1,33 @@
+/* 
+class için --> .clasAdi
+Id için --> #id
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: lightslategrey;
+}
+
+.text-red {
+  color: red;
+}
+
+.fs-small {
+  font-size: 0.8em;
+}
+
+.fs-medium {
+  font-size: 1.1em;
+}
+
+.fs-large {
+  font-size: 1.4em;
+}
+
+#first-article {
+  background-color: whitesmoke;
+}

@@ -1,0 +1,44 @@
+.main-title {
+  font-size: 3em;
+  font-style: oblique;
+  color: #053742;
+}
+
+.sub-title {
+  font-size: 2em;
+  color: #39a2db;
+}
+.context {
+  font-size: 1.2em;
+  color: #465f6d;
+}
+body {
+  text-align: center;
+}
+.navi-list-item {
+  margin-inline: 10px;
+  color: #6890a5;
+  color-scheme: initial;
+  border: 5px;
+  border-color: #a2dbfa;
+}
+
+.list-basic-item {
+  list-style-position: initial;
+  color: #465f6d;
+}
+
+.product-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+}
+
+.list-product-item {
+  margin-bottom: 5px;
+  list-style-position: outside;
+  color: slategrey;
+  border-bottom: 3px;
+  border-color: black;
+}
