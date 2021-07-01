@@ -1,32 +1,151 @@
-<!-- <h1>Kodluyoruz-Front-End</h1>
-<!-- Yorum satırı-->
+<h1>HTML</h1>
 
-<!--
-    Yorum satırı.
-    Paragraf olarak da kullanılabilir.
-    Yorum satırı kodları bölmeye de yarar.
-    Örn: meta başlangıç bitiş vb. gibi.
-    Ctrl+Ö kısayolu.
--->
-<!-- <h2>HTML</h2>
-<h3>Açıklamalarla Çalışmak</h3>
-<p>paragraf deneme</p>
 <p>
-    <p>3 denemeparagraf2 deneme</p>
-    <p>3 denemeparagraf2 deneme</p>
-    <p>3 denemeparagraf2 deneme</p>
-    <p>3 denemeparagraf2 deneme</p>
-    <p>3 denemeparagraf2 deneme</p>
-  paragraf2 denemeparagraf2 deneme paragraf2 denemeparagraf2 deneme paragraf2
-  <br />
-  denemeparagraf2 deneme paragraf2 denemeparagraf2 deneme paragraf2 <br />
-  denemeparagraf2 deneme paragraf2 denemeparagraf2 deneme <br />
+  Lorem ipsum dolor <em>sit amet</em> consectetur
+  <a href="#">adipisicing elit.</a>
+  <strong>Veritatis, voluptate.</strong>
 </p>
-<h3>Başlıklar ve Paragraflarla Çalışmak</h3>
-<p>ikinci deneme</p>
-<p>aklsdjklajsdlkas</p>
-<p>şlajkflşdsjfşjsdşfl</p>
-<p>Lorem, ipsum.</p>
-<p>Lorem, ipsum dolor.</p>
-<h2>CSS</h2>
-<h2>Bootstrap</h2> -->
+
+<p>
+  span:Lorem ipsum dolor <strong>sit amet consectetur </strong>
+  <span style="color: chocolate">adipisicing</span> elit.
+</p>
+
+<p>
+  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+  <br />
+  Laboriosam ratione nulla eius repellendus animi. Repudiandae!
+</p>
+
+<!-- span bir yerde inline değişiklik özellik yapmak istediğimizde kullanılıyor.
+Div bir çok elementi bir araya getirdiğimizde daha kullanışlı.
+ -->
+
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, fugit.</p>
+
+<hr />
+<!--hr çizgi ayırıcı-->
+
+<div>
+  <h2><a href="#">Block Element</a></h2>
+
+  <h2>Linklerle Çalışmak</h2>
+
+  <ul>
+    <li><a href="https://kodluyoruz.org" target="_blank">kodluyoruz.org</a></li>
+    <li><a href="iletisim.html">İletişim sayfasına git</a></li>
+    <li><a href="#footer">En alta git</a></li>
+    <li><a href="mailto:o.sofuoglu@yahoo.com">kodluyoruza mail at</a></li>
+    <li><a href="tel:+055551112233">telefon</a></li>
+  </ul>
+
+  <h1>Listeler</h1>
+  <!-- 
+    
+Sıralı listeler numaralandırır -- (ol)
+Sırasız listeler *,- gibi prefix alır (ul)
+
+-->
+
+  <ol>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+    <li>Item 4</li>
+  </ol>
+
+  <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+    <li>Item 4</li>
+  </ul>
+  <p>----------------------------------------------------</p>
+  <ol>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+    <li>
+      Item 4
+      <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+      </ul>
+    </li>
+  </ol>
+</div>
+
+<h2>Emmet/Zen Coding</h2>
+
+<!-- h1+p*2+h2+p*4 -->
+<h1></h1>
+<p></p>
+<p></p>
+<h2></h2>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+
+<ul>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+</ul>
+
+<!-- ul>li*3^p+h3+p -->
+
+<ul>
+  <li></li>
+  <li></li>
+  <li></li>
+</ul>
+<p></p>
+<h3></h3>
+<p></p>
+
+<!-- ul>li*3>p*2>lorem5 -->
+<ul>
+  <li>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Dicta quo autem praesentium provident.</p>
+  </li>
+  <li>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Eveniet blanditiis exercitationem rem voluptatum.</p>
+  </li>
+  <li>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Voluptas earum laboriosam vero quibusdam.</p>
+  </li>
+</ul>
+
+<!-- h3.deneme -->
+<h3 class="deneme"></h3>
+
+<h3 class="deneme">Lorem, ipsum.</h3>
+
+<!-- h3.deneme#idNo>lorem3 -->
+<h3 class="deneme" id="idNo">Lorem, ipsum dolor.</h3>
+
+<!-- ul>.deneme*3 -->
+
+<ul>
+  <li class="deneme">Lorem, ipsum dolor.</li>
+  <li class="deneme">Lorem, ipsum.</li>
+  <li class="deneme">Lorem, ipsum.</li>
+</ul>
+
+<img src="https://picsum.photos/200/300" alt="lorempicsum" />
+<img
+  src="https://app.patika.dev/patikaLogo.png"
+  alt="patikaLogo"
+  style="height: 100px"
+/>
+
+<img src="./01-html/images/01.jpg" alt="trial" />
+
+<h2 id="footer">En Alt Kısım</h2>
+<p>Lorem ipsum dolor sit amet.</p>
