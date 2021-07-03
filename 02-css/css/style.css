@@ -3,7 +3,7 @@ class için --> .clasAdi
 Id için --> #id
 */
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -30,4 +30,75 @@ h6 {
 
 #first-article {
   background-color: whitesmoke;
+} */
+
+.box {
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+  margin-right: 10px;
+  float: left;
+}
+.bg-red {
+  background-color: red;
+}
+.bg-green {
+  background-color: green;
+}
+
+.bg-yellow {
+  background-color: yellow;
+}
+
+.clear-fix {
+  clear: both;
+}
+
+.left-bar {
+  width: 200px;
+  float: left;
+}
+
+.content {
+  width: 800px;
+  float: left;
+}
+
+.container {
+  width: 1000px;
+  /* margin-right: auto;
+  margin-left: auto; */
+  /* Margin parametreleri üst sağ aşağı sol sırası ile */
+  margin: 50px auto 0 auto;
+  /* veya daha kısası iki parametre verirsen ilki y ekseni ikincisi x ekseni olarak çalışır
+  margin: 0 auto
+  aynı sonucu verir */
+}
+
+.card {
+  width: 20%;
+  float: left;
+  padding: 5%;
+  background-color: aqua;
+  margin-right: 2%;
+  border-radius: 10px;
+}
+
+.gradient {
+  background: linear-gradient(
+    90deg,
+    rgba(45, 156, 219, 0.6),
+    rgba(155, 81, 224.6)
+  );
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 25px;
+  color: white;
+  text-decoration: none;
+  -webkit-box-shadow: inset -1px 3px 8px 5px #1f87ff, 2px 5px 16px 0px #0b325e,
+    6px 4px 15px 2px rgba(0, 0, 0, 0);
+  box-shadow: inset -1px 3px 8px 5px #1f87ff, 2px 5px 16px 0px #0b325e,
+    6px 4px 15px 2px rgba(0, 0, 0, 0);
 }
